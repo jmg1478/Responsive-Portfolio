@@ -1,8 +1,208 @@
+@media screen and (max-width: 980px) {
+    body {
+        background-color:purple;
+    }
+    
+    header{
+        position: static;
+        padding: 0% 15% 0% 15%;
+        top: 0px;
+        background-color: #ffffff;
+        border-color: #cccccc;
+       clear:both;
+       height: 40;
+       width: 600px;
+    }
+    h1 {
+        float: left;
+      padding: 1px 0px 1px 1px;
+      font-size:175%;
+      color: #ffffff;
+      background-color: #4aaaa5;
+      width: 35%;
+      font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+      }
+
+    nav{
+        float: right;
+        margin-bottom: 1%;
+        -webkit-box-shadow: 2px 2px 7.5px 2px #000000; 
+        box-shadow: 2px 2px 7.5px 2px #000000;
+        background-color: #4aaaa5;
+        border-color: #dddddd;
+        
+    }
+  
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+      li {
+        float: right;
+      }
+      li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 8px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111111;
+      }
+      h2 {
+
+        font-size: 175%;
+        color: #ffffff;
+        font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+        }
+
+        .allimg {
+            position: center;
+            width: 50px;
+            height: 100px;
+          }
+
+          .img1 {
+            padding: 10px;
+            float: left;
+            top: 5%;
+            left: 10%;
+          }
+
+          .img2 {
+            padding: 10px;
+            float: left;
+            top: 5%;
+            left: 10%;
+          }
+          
+          
+          .img3 {
+            padding: 10px;
+          float: left;
+            top: 5%;
+            left: 10%;
+          }
+          .img4 {
+          float: left;
+            padding: 10px;
+            top: 5%;
+            left: 10%;
+          }
+
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
    
    
     body {
         background-color: #083634;
+    }
+    
+    header{
+        position: relative;
+        padding: 0% 15% 0% 15%;
+        top: 0px;
+        background-color: #ffffff;
+        border-color: #cccccc;
+       clear:both;
+       height: 30px;
+       width: 400px;
+    }
+    h1 {
+        float: left;
+      padding: 1px 0px 1px 1px;
+      font-size:140%;
+      color: #ffffff;
+      background-color: #4aaaa5;
+      width: 40%;
+      font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+      }
+
+    nav{
+        float: right;
+        margin-bottom: 1%;
+        -webkit-box-shadow: 2px 2px 7.5px 2px #000000; 
+        box-shadow: 2px 2px 7.5px 2px #000000;
+        background-color: #4aaaa5;
+        border-color: #dddddd;
+        
+    }
+  
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+      li {
+        float: right;
+      }
+      li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 8px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111111;
+      }
+      h2 {
+
+        font-size: 120%;
+        color: #ffffff;
+        font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+        }
+
+        .allimg {
+            position: center;
+            width: 50px;
+            height: 100px;
+          }
+
+          .img1 {
+            padding: 10px;
+            float: left;
+            top: 5%;
+            left: 10%;
+          }
+
+          .img2 {
+            padding: 10px;
+            float: left;
+            top: 5%;
+            left: 10%;
+          }
+          
+          
+          .img3 {
+            padding: 10px;
+          float: left;
+            top: 5%;
+            left: 10%;
+          }
+          .img4 {
+          float: left;
+            padding: 10px;
+            top: 5%;
+            left: 10%;
+          }
+
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+        background-color: red;
     }
     
     header{
@@ -89,4 +289,4 @@
             left: 10%;
           }
 
-  }
+}
