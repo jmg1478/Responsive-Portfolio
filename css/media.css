@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+   
+   
+    body {
+        background-color: #083634;
+    }
+    
+    header{
+       height: 24px;
+       width: 580px;
+    }
+    h1 {
+        float: left;
+      padding: 5px 7.5px 5px 10px;
+      font-size:117%;
+      color: #ffffff;
+      background-color: #4aaaa5;
+      width: 27%;
+      font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+      }
+
+    nav{
+        float: right;
+        margin-bottom: 1%;
+        -webkit-box-shadow: 2px 2px 7.5px 2px #000000; 
+        box-shadow: 2px 2px 7.5px 2px #000000;
+        background-color: #4aaaa5;
+        border-color: #dddddd;
+        
+    }
+  
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: -20px;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+      li {
+        float: right;
+      }
+      li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111111;
+      }
+   
+
+  }
