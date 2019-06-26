@@ -7,15 +7,15 @@
     
     header{
        height: 24px;
-       width: 580px;
+       width: 350px;
     }
     h1 {
         float: left;
-      padding: 5px 7.5px 5px 10px;
-      font-size:117%;
+      padding: 1px 0px 1px 1px;
+      font-size:100%;
       color: #ffffff;
       background-color: #4aaaa5;
-      width: 27%;
+      width: 35%;
       font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
       }
 
@@ -32,7 +32,6 @@
     ul {
         list-style-type: none;
         margin: 0;
-        padding: -20px;
         overflow: hidden;
         background-color: #ffffff;
       }
@@ -43,12 +42,51 @@
         display: block;
         color: #777777;
         text-align: center;
-        padding: 16px;
+        padding: 8px;
         text-decoration: none;
       }
       li a:hover {
         background-color: #111111;
       }
-   
+      h2 {
+
+        font-size: 150%;
+        color: #ffffff;
+        font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+        }
+
+        .allimg {
+            position: center;
+            width: 50px;
+            height: 100px;
+          }
+
+          .img1 {
+            padding: 10px;
+            float: left;
+            top: 5%;
+            left: 10%;
+          }
+
+          .img2 {
+            padding: 10px;
+            float: left;
+            top: 5%;
+            left: 10%;
+          }
+          
+          
+          .img3 {
+            padding: 10px;
+          float: left;
+            top: 5%;
+            left: 10%;
+          }
+          .img4 {
+          float: left;
+            padding: 10px;
+            top: 5%;
+            left: 10%;
+          }
 
   }
