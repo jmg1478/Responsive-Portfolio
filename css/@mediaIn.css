@@ -1,6 +1,6 @@
 @media screen and (max-width: 980px) {
     body {
-      background-color: #4aaaa5;
+        background-color: #4aaaa5;
     }
     
     header{
@@ -52,47 +52,53 @@
       li a:hover {
         background-color: #111111;
       }
+      h3 {
+        color: #4aaaa5;
+        font-size: 150%;
+      }
+      .image {
+        float: left;
+      }
+      .container {
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        top: 80px;
+        width: 700px;
+        height: 500px;
+        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+        background-color: #ffffff;
+        border-color: #dddddd;
+      }
+      
+      div {
+        float:  right;
+      }
+      span {
+        text-align: center;
+        font-size: 16px; 
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica sans-serif;
+      }
+      p {
+        text-align: center;
+        font-size: 16px; 
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica sans-serif;
+      }
+      footer {
+       
+        position: relative;
+        margin-top: 40%;
+        background-color: #666666;
+        border-color: green;
+        width: 50%;
+      }
       h2 {
-
-        font-size: 175%;
-        color: #ffffff;
-        font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
-        }
-
-        .allimg {
-            position: center;
-            width: 50px;
-            height: 100px;
-          }
-
-          .img1 {
-            padding: 10px;
-            float: left;
-            top: 5%;
-            left: 10%;
-          }
-
-          .img2 {
-            padding: 10px;
-            float: left;
-            top: 5%;
-            left: 10%;
-          }
-          
-          
-          .img3 {
-            padding: 10px;
-          float: left;
-            top: 5%;
-            left: 10%;
-          }
-          .img4 {
-          float: left;
-            padding: 10px;
-            top: 5%;
-            left: 10%;
-          }
-
+        font-size: 16px;
+       clear: both;
+      }
 }
 
 
@@ -105,7 +111,7 @@
    
    
     body {
-      background-color: #4aaaa5;
+        background-color: #4aaaa5;
     }
     
     header{
@@ -159,50 +165,64 @@
       }
       h2 {
 
-        font-size: 120%;
+        font-size: 100%;
         color: #ffffff;
         font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
         }
 
-        .allimg {
-            position: center;
-            width: 50px;
-            height: 100px;
+        h3 {
+            color: #4aaaa5;
+            font-size: 125%;
+          }
+          .image {
+            float: left;
+          }
+          .container {
+            position: absolute;
+            left: 15%;
+            right: 15%;
+            top: 80px;
+            width: 600px;
+            height: 500px;
+            -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+            box-shadow: 5px 5px 15px 5px #000000;
+            background-color: #ffffff;
+            border-color: #dddddd;
+          }
+          div {
+            float:  right;
+          }
+          span {
+            text-align: center;
+            font-size: 14px; 
+            color: #777777;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica sans-serif;
           }
 
-          .img1 {
-            padding: 10px;
-            float: left;
-            top: 5%;
-            left: 10%;
+          p {
+            text-align: center;
+            font-size: 14px; 
+            color: #777777;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica sans-serif;
           }
-
-          .img2 {
-            padding: 10px;
-            float: left;
-            top: 5%;
-            left: 10%;
+          footer {
+           
+            position: relative;
+            margin-top: 40%;
+            background-color: #666666;
+            border-color: green;
+            width: 50%;
           }
-          
-          
-          .img3 {
-            padding: 10px;
-          float: left;
-            top: 5%;
-            left: 10%;
-          }
-          .img4 {
-          float: left;
-            padding: 10px;
-            top: 5%;
-            left: 10%;
+          h2 {
+            font-size: 16px;
+           clear: both;
           }
 
   }
 
   @media screen and (max-width: 640px) {
     body {
-      background-color: #4aaaa5;
+        background-color: #4aaaa5;
     }
     
     header{
@@ -255,38 +275,52 @@
         font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
         }
 
-        .allimg {
-            position: center;
-            width: 50px;
-            height: 100px;
+        h3 {
+            color: #4aaaa5;
+            font-size: 125%;
           }
-
-          .img1 {
-            padding: 10px;
+          .image {
             float: left;
-            top: 5%;
-            left: 10%;
           }
-
-          .img2 {
-            padding: 10px;
-            float: left;
-            top: 5%;
-            left: 10%;
+          .container {
+            position: absolute;
+            left: 15%;
+            right: 15%;
+            top: 80px;
+            width: 450px;
+            height: 600px;
+            -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+            box-shadow: 5px 5px 15px 5px #000000;
+            background-color: #ffffff;
+            border-color: #dddddd;
           }
           
-          
-          .img3 {
-            padding: 10px;
-          float: left;
-            top: 5%;
-            left: 10%;
+          div {
+            float:  right;
           }
-          .img4 {
-          float: left;
-            padding: 10px;
-            top: 5%;
-            left: 10%;
+          span {
+            text-align: center;
+            font-size: 14px; 
+            color: #777777;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica sans-serif;
+          }
+          p {
+            text-align: center;
+            font-size: 14px; 
+            color: #777777;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica sans-serif;
+          }
+          footer {
+           
+            position: relative;
+            margin-top: 40%;
+            background-color: #666666;
+            border-color: green;
+            width: 50%;
+          }
+          h2 {
+            font-size: 16px;
+           clear: both;
           }
 
 }
