@@ -1,0 +1,101 @@
+body {
+    background-color: #4aaaa5;
+  }
+  header {
+    position: relative;
+    padding: 0% 15% 0% 15%;
+    top: 0px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+   clear:both;
+   height: 54px;
+   width: 960px;
+  }
+  h1 {
+    float: left;
+  padding: 10px 15px 10px 20px;
+  font-size:225%;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  width: 27%;
+  font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+  }
+  nav {
+    float: right;
+    margin-bottom: 1%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-color: #4aaaa5;
+    border-color: #dddddd;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: -20px;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111111;
+  }
+  
+  input[type=text], select, textarea {
+    width: 200%;
+    padding: 12px;
+    border: 5px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  button[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  button[type=submit]:hover {
+      font-weight: bold;
+    background-color: #45a049;
+  }
+  .container {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 80px;
+    width: 960px;
+    height: 450px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .column {
+    width: 40%;
+    margin-top: 6px;
+    padding: 0px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2 {
+    font-size: 175%;
+    color: #4aaaa5,
+  }
+  p {
+    font-size: 125%;
+    color: #4aaaa5,
+  }
